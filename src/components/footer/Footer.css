@@ -1,0 +1,7 @@
+.signmeBtn {
+    background: linear-gradient(90deg, #3E16B3 0%, #E91DEB 61.98%, #5C1DEB 100%);
+    color: white;
+}
+.signmeBtn:hover{
+color: white;
+}

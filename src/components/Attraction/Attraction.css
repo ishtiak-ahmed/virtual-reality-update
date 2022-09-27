@@ -1,0 +1,60 @@
+.AttractionHeader {
+  display: block;
+  font-size: 48px;
+  line-height: 1;
+  margin: 0 0 24px;
+  font-family: "Maven Pro";
+  font-weight: 700;
+}
+
+.tc20 {
+  top: 30px;
+  left: -67px;
+}
+.tc22 {
+  left: -67px;
+  bottom: 48px;
+}
+.textGradient {
+  background-image: linear-gradient(to right, #4608f1, #f108d6);
+  color: white;
+  
+}
+
+p {
+  margin: 24px 0;
+  padding-right: 30px;
+}
+
+iframe {
+  position: relative;
+  border-radius: 30px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  top: 0;
+  right: 0;
+}
+
+.videoArea img {
+  width: 130px;
+}
+
+/* Media CSS */
+
+@media (max-width: 768px) {
+  .AttractionHeader {
+    font-size: 24;
+  }
+
+  .tc20 {
+    top: -5%;
+    left: 10%;
+  }
+  .tc22 {
+    top: -15%;
+    left: 53%;
+  }
+  .videoArea img {
+    width: 100px;
+  }
+}

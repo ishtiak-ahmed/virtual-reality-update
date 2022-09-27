@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.hero-section {
+  position: relative;
+}
+.vrImg {
+  position: absolute;
+  top: 17%;
+  left: 4px;
+}
+.vr-title {
+  font-family: "Maven Pro";
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -1.68px;
+  width: 220px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+}
+
+.bookBtn {
+      display: block;
+    width: 158px;
+    text-align: center;
+    background-image: linear-gradient(to right, #f108d6 0%, #4716e8 51%, #e30aee 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 40px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 0px;
+    margin: auto;
+}
+
+.bookBtn:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .vr-title {
+    width: 37vw;
+    font-size: 3.9vw;
+    line-height: 1;
+  }
+}

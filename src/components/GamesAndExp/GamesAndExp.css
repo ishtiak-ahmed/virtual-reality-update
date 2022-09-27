@@ -1,0 +1,89 @@
+.mainBox {
+  
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 21%, rgba(9, 9, 121, 1) 45%, rgba(253, 254, 253, 1) 90%); */
+
+   
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 21%, rgba(9, 9, 121, 1) 85%, rgba(253, 254, 253, 1) 98%);
+}
+.mainHeading {
+  font-family: "Maven Pro";
+  font-weight: 700;
+  font-size: 72px;
+  padding-top: 8rem;
+}
+/* Card */
+
+.card {
+  position: relative;
+  margin: 30px 8px;
+  width: 267px;
+  height: 480px;
+  border-radius: 40px;
+  /* box-shadow: 5px 5px 20px 7px #d809b9, -1px -2px 5px 3px rgb(199, 8, 229); */
+  cursor: pointer;
+  transition: 0.4s;
+  margin-bottom: 85px;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.vrIcon {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+}
+
+.title {
+  position: absolute;
+  top: 70%;
+  left: 70px;
+}
+
+.price {
+  position: absolute;
+  top: 80%;
+  left: 70px;
+}
+
+.card:hover {
+  /* transform: scale(0.9, 0.9); */
+  box-shadow: 5px 5px 20px 15px rgb(214, 37, 199), -5px -5px 20px 15px rgb(171, 39, 152);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
