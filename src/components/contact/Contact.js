@@ -1,9 +1,10 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
 
   return (
-    <div className='container my-5 py-5' >
+    <div className='container my-5 py-5 px-4' >
       <div className="row">
         <div className="col-md-6">
           <h1 className='fw-bold'>Contact us</h1>
@@ -27,8 +28,8 @@ const Contact = () => {
 
         </div>
 
-        <div className="col-md-6">
-          <img className='w-100' src="https://www.dnavr.co.uk/img/form_illustration.png" alt="" />
+        <div className="col-md-6 img-col-6">
+          <img className='about-img' src="https://www.dnavr.co.uk/img/form_illustration.png" alt="" />
         </div>
       </div>
 

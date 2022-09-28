@@ -11,8 +11,8 @@ const GamesAndExp = () => {
       <div className="container-lg px-0 pb-5">
         <h1 className="text-center text-white mainHeading">Games & Experience </h1>
 
-        <div className="cardContainer d-flex flex-wrap justify-content-center pb-3">
-        
+        <div className="cardContainer d-flex flex-wrap justify-content-center  pb-3">
+
           <Tilt>
             <div class="card">
               <div class="card_image">

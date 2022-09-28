@@ -3,8 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className='bg-dark py-5'>
-      <div className="container py-3 text-white">
+    <div className='bg-dark py-5 px-3'>
+      <div className="container py-3 text-white ">
         <div className="row">
           <div className="col-md-3">
             <h5 className='fw-bold'>Battersea Power Station</h5>
@@ -21,8 +21,8 @@ const Footer = () => {
             <p className='text-secondary my-3'>18 Arches Lane, SW11 8AB, London</p>
             <p className='fw-bold'>+44 20 4503 9805</p>
           </div>
-          <div className="col-md-3">
-            <h5 className='fw-bold'>info@dnavr.co.uk</h5>
+          <div className="col-md-3 ">
+            <h5 className='fw-bold my-2'>info@dnavr.co.uk</h5>
             <div className="icon-box d-flex justify-content-between my-2">
               <img src="https://www.dnavr.co.uk/img/footer/Facebook.svg" alt="" />
               <img src="https://www.dnavr.co.uk/img/footer/tiktok.svg" alt="" />

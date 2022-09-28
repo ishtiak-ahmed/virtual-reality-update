@@ -4,9 +4,9 @@ import "./About.css";
 const About = () => {
   return (
     <div className='container my-5 py-5'>
-      <div className="row">
+      <div className="row container">
         <div className="col-md-5">
-          <div class="p-header d-flex">
+          <div class="p-header d-flex py-5">
             <img src="https://www.dnavr.co.uk/img/q.svg" alt="" />
             <h1 class="p-title fw-bold mx-4">Press <br /> about us</h1>
           </div>

@@ -1,3 +1,7 @@
+.slide-bg {
+
+background-color: #F2F7FC;
+}
 .slide-title {
   font-style: normal;
   font-weight: bold;
@@ -81,4 +85,16 @@
     -webkit-transition: background-color .25s ease-out,border-color .25s ease-out;
     -o-transition: background-color .25s ease-out,border-color .25s ease-out;
     transition: background-color .25s ease-out,border-color .25s ease-out;
+}
+
+@media (max-width: 768px) {
+.slide-title {
+  font-size: 32px;
+
+}
+.slider-text {
+  font-size: 16px;
+  
+}
+
 }

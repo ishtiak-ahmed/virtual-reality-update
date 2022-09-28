@@ -18,12 +18,13 @@
 .textGradient {
   background-image: linear-gradient(to right, #4608f1, #f108d6);
   color: white;
-  
 }
 
-p {
+.textArea p {
   margin: 24px 0;
   padding-right: 30px;
+  font-size: 1.3rem;
+  text-align: justify;
 }
 
 iframe {
@@ -43,7 +44,7 @@ iframe {
 
 @media (max-width: 768px) {
   .AttractionHeader {
-    font-size: 24;
+    font-size: 37px;
   }
 
   .tc20 {

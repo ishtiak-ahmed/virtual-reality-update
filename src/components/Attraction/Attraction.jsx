@@ -5,7 +5,7 @@ import TC22 from "../../assets/images/TC22.gif";
 
 const Attraction = () => {
   return (
-    <div className="container  py-5">
+    <div className="container px-4  py-5 ">
 
       <div className="row attraction">
         <div className="col-md-6">

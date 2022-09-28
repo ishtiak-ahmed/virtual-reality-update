@@ -19,7 +19,7 @@ const Slider = () => {
   };
 
   return (
-    <div className='overflow-hidden bg-light py-5'>
+    <div className='overflow-hidden slide-bg py-5'>
       <div className="container ">
         {/* <h2> Single Item</h2> */}
         <Sliders {...settings}>
@@ -27,8 +27,8 @@ const Slider = () => {
           {/* 1st slider data */}
 
           <div>
-            <div className="row">
-              <div className="col-md-6">
+            <div className="row container-lg">
+              <div className=" col-md-6">
                 <div className="mx-3">
                   <h1 className="slide-title">
                     Events. Parties. Collaborations.
@@ -63,7 +63,7 @@ const Slider = () => {
           {/* 2nd slider data */}
 
           <div>
-            <div className="row">
+            <div className="row container-lg">
               <div className="col-md-6">
                 <div className="mx-3">
                   <h1 className="slide-title">
@@ -71,12 +71,10 @@ const Slider = () => {
                   </h1>
                   <div className="slider-text">
                     Looking for a corporate event, your guests will <b>actually</b> enjoy? Organising a Kid's Birthday Party or an event for your inner child?&nbsp;<br />
-                    <br />
-                    Look no further!<br />
+
                     <br />
                     We have organised numerous events of any complexity at our own venues and off-site.<br />
-                    <br />
-                    Click the link below, and we will transform your next event!
+
                   </div>
 
                   <div className='my-3'>

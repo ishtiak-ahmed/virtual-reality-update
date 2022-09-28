@@ -5,14 +5,14 @@ import { Icon } from '@iconify/react';
 const Testimonial = () => {
   return (
 
-    <div className="container my-5">
+    <div className="container-fluid my-5">
       <div className="row">
 
         <img src={testimon} alt="" />
       </div>
 
       <div className="container my-5">
-        <div className="row ">
+        <div className="row container ">
 
           <div className="col-md-4 ">
             <div className="icon-box my-2">

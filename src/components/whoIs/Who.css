@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .whois-part h1 {
+  font-size: 3rem;
+  }
+  .whois-part h4 {
+  font-size: 2rem;
+  }
+  .whois-part p {
+  font-size: 1.3rem;
+  }
+  .whois-part button {
+  font-size: 1.3rem;
+  }
+  .whois-img img {
+    width: 100vw;
+    height: auto;
+  }
+}

@@ -6,7 +6,7 @@ const Questions = () => {
 
 
   return (
-    <div className='container my-5'>
+    <div className='container my-5 px-4'>
       <h1 className="fw-bold">Frequently Asked Questions</h1>
 
       <div class="accordion my-5" id="accordionExample">

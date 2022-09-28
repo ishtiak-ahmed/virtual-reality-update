@@ -7,12 +7,15 @@ import "swiper/css/pagination";
 import vrShow2 from "../../assets/images/vrShow2.jpg";
 import vrShow3 from "../../assets/images/vrShow3.jpg";
 import vrShow4 from "../../assets/images/vrShow4.jpg";
+import { Navigation, Pagination } from "swiper";
 
 const HowItWorks = () => {
   return (
     <div className="container">
       <h1>How does It Work?</h1>
       <Swiper
+
+
         className="mySwiper"
         // install Swiper modules
         breakpoints={{
@@ -44,7 +47,7 @@ const HowItWorks = () => {
         
           <SwiperSlide>
             <div className="content">
-              <img className="w-100" src="https://www.dnavr.co.uk/upload/iblock/4ae/0vfpddjkbq843kz5bbfmju37yzzltik6.png" alt="" />
+              <img className="content-image" src="https://www.dnavr.co.uk/upload/iblock/4ae/0vfpddjkbq843kz5bbfmju37yzzltik6.png" alt="" />
               <div className="content-details fadeIn-bottom">
                 <h2 className="content-title text-white">4 Mind-blowing sessions</h2>
                 <p className="content-text">
