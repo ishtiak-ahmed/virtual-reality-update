@@ -23,6 +23,7 @@ const Footer = () => {
           </div>
           <div className="col-md-3 ">
             <h5 className='fw-bold my-2'>info@dnavr.co.uk</h5>
+
             <div className="icon-box d-flex justify-content-between my-2">
               <img src="https://www.dnavr.co.uk/img/footer/Facebook.svg" alt="" />
               <img src="https://www.dnavr.co.uk/img/footer/tiktok.svg" alt="" />
@@ -35,6 +36,7 @@ const Footer = () => {
               <img src="https://www.dnavr.co.uk/img/footer/Youtube.svg" alt="" />
               <img src="https://www.dnavr.co.uk/img/footer/LinkedIN.svg" alt="" />
             </div>
+
           </div>
         </div>
         <hr />
