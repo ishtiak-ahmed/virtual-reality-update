@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "VR Arcade",
+    "details": "Units 1-2, 400-404 York way, N7 9LREnjoy any of the VR Arcade games and experiences. To immerse together book 2 or more headsets",
+    "price": "From £29 ",
+    "player": "1-10",
+    "ageRestriction": "7+"
+  },
+  {
+    "id": 2,
+    "title": "VR Escape Room",
+    "details": "Solve puzzles in a team in one of our VR Escape Rooms (max 6 players). For more than 6 players book 2 rooms simultaneously.",
+    "price": "From £22",
+    "player": "2-6",
+    "ageRestriction": "10+ (7+ with an adult)"
+  },
+  {
+    "id": 3,
+    "title": "Premium Free-Roaming",
+    "details": "Walk around freely with no wires for an incredible level of immersion (up to 4 people)",
+    "price": "From £32.5",
+    "player": "2-4",
+    "ageRestriction": "12+"
+  },
+  {
+    "id": 4,
+    "title": "Premium Free-Roaming + Extra",
+    "details": "Premium Free-Roaming + Hospital of Horror",
+    "price": "From £40.5",
+    "player": "2-4",
+    "ageRestriction": "12+"
+  },
+  {
+    "id": 5,
+    "title": "Group Booking (Large VR Arcade)",
+    "details": "Got more people than we have headsets? Swap in and out with your group, watch others play. For the best experience we recommend booking 2 or more slots!",
+    "price": "From £19",
+    "player": "11-10",
+    "ageRestriction": "7+"
+  },
+  {
+    "id": 6,
+    "title": "Ubisoft’s VR Escape room",
+    "details": "Experience the next level VR Escape Rooms (2 or 4 players)",
+    "price": "From £32.5 2-4",
+    "player": "2-4",
+    "ageRestriction": "7+ (12+ with an adult)"
+  }
+]

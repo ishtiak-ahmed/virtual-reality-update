@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
               <li><a href="#food-menu">FAQ</a></li>
               <li><a href="#contact">Price</a></li>
             <li><Icon icon="fa-solid:search" width="28" /></li>
-             <li><a className=' book-button' href="#contact">Book now</a></li>
+            <Link to='/booking'> <li><a className=' book-button' >Book now</a></li> </Link>
             
           </ul>
         </div>

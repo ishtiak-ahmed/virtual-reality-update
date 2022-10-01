@@ -1,0 +1,167 @@
+.headerTitle > h2 {
+  font-size: 56px;
+  letter-spacing: -0.03em;
+  font-family: Maven Pro;
+  color: #1a1a1a;
+  line-height: 1em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.headerTitle > h2 > span {
+  font-size: 56px;
+  letter-spacing: -0.03em;
+  font-family: Maven Pro;
+  color: #261deb;
+  line-height: 1em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.stepTitle > h2 {
+  font-size: 40px;
+  letter-spacing: -0.03em;
+  font-family: Maven Pro;
+  color: #1a1a1a;
+  line-height: 1em;
+  font-weight: 700;
+  font-style: normal;
+}
+.stepTitle > h2 > span {
+  font-size: 40px;
+  letter-spacing: -0.03em;
+  font-family: Maven Pro;
+  color: #444a99;
+  line-height: 1em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookingCard {
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff);
+  width: 280px;
+  height: 360px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 24px;
+  object-fit: cover;
+  margin: 0 15px;
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.bookingCard:nth-child(1) {
+  background-image: url("https://booking.dnavr.co.uk/frontend/dist/assets/img/location-card-new-1.png");
+}
+
+.bookingCard:nth-child(2) {
+  background-image: url("https://booking.dnavr.co.uk/frontend/dist/assets/img/location-card-new-2.png");
+}
+.bookingCard:nth-child(3) {
+  background-image: url("https://booking.dnavr.co.uk/frontend/dist/assets/img/location-card-new-3.png");
+}
+
+.VrLogo > img {
+  padding-bottom: 1rem;
+  left: 40%;
+  position: relative;
+  margin-top: 5px;
+}
+
+
+ */
+
+.details > h3 {
+  font-family: Maven Pro;
+  color: #1a1a1a;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bookingCard > p {
+  font-family: Ubuntu;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bookingCard:active {
+  border: #261deb 2px solid;
+}
+
+span {
+  font-family: Ubuntu;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div > .SidebarArea {
+  position: relative;
+  width: 280px;
+  margin-top: 96px;
+  background-color: #f2f7fc;
+  border-radius: 24px;
+  padding: 10px 40px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+/* step 2 */
+
+.single-box p {
+  font-size: 13px;
+}
+.single-box {
+  width: 14rem;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+
+/* Calender CSS */
+.date-select-form {
+  width: 11rem;
+  top: 1%;
+  left: 36%;
+}
+.left-icon {
+  left: 0;
+  top: 44%;
+  cursor: pointer;
+}
+.right-icon {
+  top: 44%;
+  right: 0;
+  cursor: pointer;
+}
+
+/* Step 3 CSS */
+
+div > .quantity {
+  display: flex;
+  width: 100%;
+}
+
+.qBox > span {
+  margin: 10px;
+  padding: 5px 10px;
+  background: rgb(255, 255, 255);
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.qBox > span:active {
+  border: 4px solid #261deb;
+}

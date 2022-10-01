@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import vr1 from "../../assets/images/vr-glass1.png";
 import vr2 from "../../assets/images/vr-glass2.png";
 import "./Header.css";
@@ -10,7 +11,9 @@ const Header = () => {
         <img className="vrBg w-100" src={vr2} alt="" />
         <img className="vrImg w-100" src={vr1} alt="" />
         <div className="vr-title text-center">London's First VR Arcade </div>
-        <span className="bookBtn">Book Now</span>
+        <Link to="./booking">
+          <span className="bookBtn">Book Now</span>
+        </Link>
       </div>
     </div>
   );

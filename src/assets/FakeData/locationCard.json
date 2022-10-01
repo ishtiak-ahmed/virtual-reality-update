@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Camden",
+    "units": "Units 1-2, 400-404 York way, N7 9LR",
+    "weekdays": "15:00-21:00",
+    "weekends": "10:30-22:00",
+    "mapImage": ""
+  },
+  {
+    "id": 2,
+    "title": "Hammersmith",
+    "units": "Unit A, 77 Fulham Palace road, W6 8JA",
+    "weekdays": "15:00-21:00",
+    "weekends": "10:30-22:00",
+    "mapImage": ""
+  },
+  {
+    "id": 3,
+    "title": "Battersea Power Station",
+    "units": "18 Arches Lane, London, SW11 8AB",
+    "weekdays": "15:00-21:00",
+    "weekends": "10:30-22:00",
+    "mapImage": ""
+  }
+]
