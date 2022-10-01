@@ -44,8 +44,8 @@
 
 .bookingCard {
   background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff);
-  width: 280px;
-  height: 360px;
+  width: 250px;
+  height: 350px;
   padding: 10px;
   cursor: pointer;
   transition: 0.4s;
@@ -73,9 +73,6 @@
   position: relative;
   margin-top: 5px;
 }
-
-
- */
 
 .details > h3 {
   font-family: Maven Pro;
