@@ -96,6 +96,33 @@
   border: #261deb 2px solid;
 }
 
+.processToPay {
+   display: block;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right, #f108d6 0%, #4716e8 51%, #e30aee 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 40px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+
+.processToPay > li {
+  list-style: none;
+}
+
+.bookBtn:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
 span {
   font-family: Ubuntu;
   color: #1a1a1a;
@@ -106,16 +133,14 @@ span {
 }
 
 div > .SidebarArea {
-  display: block;
+display: flex;
   position: relative;
-  width: 280px;
-  height: 100%;
+  max-width: 280px;
+  height: inherit;
   margin-top: 96px;
   background-color: #f2f7fc;
   border-radius: 24px;
   padding: 10px 40px;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
 }
 
 /* step 2 */
@@ -184,14 +209,53 @@ div > .SidebarArea {
   z-index: -1;
 }
 
-
-
 /* table */
-
+tr th:hover,
+tr td:hover {
+  background-color: #261deb !important;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+}
 
 /* media Screen */
 
-@media only screen and (max-width: 600px){
- 
 
+@media only screen and (max-width: 600px) {
+  div > .SidebarArea {
+  display: flex;
+  max-width:100%;
+  margin: 0;
+  position: relative; 
+  top: inherit !important;
+  }
+  .processToPay {
+  
+   
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 12px;
+}
+
+}
+/* for big screen */
+@media (min-width: 992px) and (max-width : 1200px){
+
+.processToPay {
+   display: block;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right, #f108d6 0%, #4716e8 51%, #e30aee 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 40px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
 }

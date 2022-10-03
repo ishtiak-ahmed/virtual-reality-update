@@ -219,56 +219,7 @@ const BookingCard = () => {
             ))}
         </div>
       </div>
-      <div className="col-lg-3 col-md-3 col-sm-9">
-        {isShown && (
-          <div className="SidebarArea">
-            <div className="bookingDetails">
-              <h3>Your Booking</h3>
-              {Object.values(bookingDetails).map((bookingData, key) => (
-                <>
-                  <div className="details" key={key}>
-                    <h2>{bookingData?.title}</h2>
-                    <p>{bookingData?.units}</p>
-                  </div>
-                </>
-              ))}
-              {showStep3 && (
-                <>
-                  <div className="">
-                    <p>Headset: {headsetQty}</p>
-                  </div>
-                  {showStep4 && (
-                    <>
-                      <div className="">
-                        <span>{bookingDetails?.date}</span>
-                      </div>
-                    </>
-                  )}
-                  {showStep5 && (
-                    <>
-                      <p>
-                        {bookingDetails?.time?.slice(0, 7)} {"-"} {`${endTime} ${bookingDetails?.time?.slice(1, 7)}`}
-                      </p>
-                      <div className="pricingArea d-flex justify-content-between">
-                        <p>Sub Total</p>
-                        <span>{bookingDetails?.time?.slice(10, 13)}</span>
-                      </div>
-                      <div className="pricingArea d-flex justify-content-between">
-                        <p>Total</p>
-                        <span>{bookingDetails?.time?.slice(10, 13)}</span>
-                      </div>
 
-                      <div className="processToPay">
-                        <button className="bookBtn">Process To Payment</button>
-                      </div>
-                    </>
-                  )}
-                </>
-              )}
-            </div>
-          </div>
-        )}
-      </div>
       {isShown && (
         <div className="row step2">
           <div className="col-lg-9 col-md-9">
@@ -539,10 +490,61 @@ const BookingCard = () => {
               Personal information
             </h2>
             <h4>Gift Vouchers and Promo codes</h4>
-            <input type="text" placeholder="Gift Vouchers and Promo" />
+            <input className="form-control w-50" type="text" placeholder="Gift Vouchers and Promo" />
+            <span className="btn btn-primary m-1">Apply now</span>
           </div>
         </div>
       )}
+      <div className="col-lg-3 col-md-3 col-sm-9 d-flex ">
+        {isShown && (
+          <div className="SidebarArea justify-content-center">
+            <div className="bookingDetails ">
+              <h3>Your Booking</h3>
+              {Object.values(bookingDetails).map((bookingData, key) => (
+                <>
+                  <div className="details" key={key}>
+                    <h2>{bookingData?.title}</h2>
+                    <p>{bookingData?.units}</p>
+                  </div>
+                </>
+              ))}
+              {showStep3 && (
+                <>
+                  <div className="">
+                    <p>Headset: {headsetQty}</p>
+                  </div>
+                  {showStep4 && (
+                    <>
+                      <div className="">
+                        <span>{bookingDetails?.date}</span>
+                      </div>
+                    </>
+                  )}
+                  {showStep5 && (
+                    <>
+                      <p>
+                        {bookingDetails?.time?.slice(0, 7)} {"-"} {`${endTime} ${bookingDetails?.time?.slice(1, 7)}`}
+                      </p>
+                      <div className="pricingArea d-flex justify-content-between">
+                        <p>Sub Total</p>
+                        <span>{bookingDetails?.time?.slice(10, 13)}</span>
+                      </div>
+                      <div className="pricingArea d-flex justify-content-between">
+                        <p>Total</p>
+                        <span>{bookingDetails?.time?.slice(10, 13)}</span>
+                      </div>
+
+                      <div className="processToPay">
+                        <li className="payBtn">Process To Payment</li>
+                      </div>
+                    </>
+                  )}
+                </>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
