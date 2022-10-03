@@ -68,6 +68,7 @@ const BookingCard = () => {
   };
 
   const clickStep3 = (id) => {
+    console.log("show counter");
     setShowStep3(true);
     setBookingDetails({ ...bookingDetails, headsetQty });
   };
@@ -236,24 +237,31 @@ const BookingCard = () => {
                   <div className="">
                     <p>Headset: {headsetQty}</p>
                   </div>
-                  <div className="">
-                    <span>{bookingDetails?.date}</span>
-                    <p>
-                      {bookingDetails?.time?.slice(0, 7)} {"-"} {`${endTime} ${bookingDetails?.time?.slice(1, 7)}`}
-                    </p>
-                  </div>
-                  <div className="pricingArea d-flex justify-content-between">
-                    <p>Sub Total</p>
-                    <span>{bookingDetails?.time?.slice(10, 14)}</span>
-                  </div>
-                  <div className="pricingArea d-flex justify-content-between">
-                    <p>Total</p>
-                    <span>{bookingDetails?.time?.slice(10, 14)}</span>
-                  </div>
+                  {showStep4 && (
+                    <>
+                      <div className="">
+                        <span>{bookingDetails?.date}</span>
+                      </div>
+                    </>
+                  )}
                   {showStep5 && (
-                    <div className="processToPay">
-                      <button className="bookBtn">Process To Payment</button>
-                    </div>
+                    <>
+                      <p>
+                        {bookingDetails?.time?.slice(0, 7)} {"-"} {`${endTime} ${bookingDetails?.time?.slice(1, 7)}`}
+                      </p>
+                      <div className="pricingArea d-flex justify-content-between">
+                        <p>Sub Total</p>
+                        <span>{bookingDetails?.time?.slice(10, 13)}</span>
+                      </div>
+                      <div className="pricingArea d-flex justify-content-between">
+                        <p>Total</p>
+                        <span>{bookingDetails?.time?.slice(10, 13)}</span>
+                      </div>
+
+                      <div className="processToPay">
+                        <button className="bookBtn">Process To Payment</button>
+                      </div>
+                    </>
                   )}
                 </>
               )}
@@ -278,6 +286,7 @@ const BookingCard = () => {
                 {vrData &&
                   vrData.map((vr, key) => (
                     <div
+                      // style={{ backgroundColor: showStep2 ? "blue" : "", color: showStep2 ? "white" : "" }}
                       className="single-box border p-2 "
                       key={key}
                       onClick={() => {
