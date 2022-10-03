@@ -1,1 +1,19 @@
-
+[
+  {
+    "weekdays": [
+      {
+        "days": [
+          {
+            "sat": [{ "day": "Saturday", "time": "1:40 PM", "status": "Not Available", "price": "E48/h" }],
+            "sun": [{ "day": "Sunday", "time": "1:40 PM", "status": "Available", "price": "E48/h" }],
+            "mon": [{ "day": "Monday", "time": "1:40 PM", "status": "Not Available", "price": "E48/h" }],
+            "tue": [{ "day": "Tuesday", "time": "1:40 PM", "status": "Not Available", "price": "E48/h" }],
+            "wed": [{ "day": "Wednesday", "time": "1:40 PM", "status": "Not Available", "price": "E48/h" }],
+            "thu": [{ "day": "Thursday", "time": "1:40 PM", "status": "Not Available", "price": "E48/h" }],
+            "fri": [{ "day": "Saturday", "time": "1:40 PM", "status": "Not Available", "price": "E48/h" }]
+          }
+        ]
+      }
+    ]
+  }
+]
