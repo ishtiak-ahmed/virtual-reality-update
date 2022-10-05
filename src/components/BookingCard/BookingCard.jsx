@@ -199,7 +199,7 @@ const BookingCard = () => {
                 onClick={() => {
                   clickStep1(data.id);
                 }}
-                className="bookingCard my-3 justify-content-center align-items-center"
+                className={(bookingDetails.step1.id === data.id ? "active " : "") + "bookingCard my-3 justify-content-center align-items-center"}
                 key={data.id}
               >
                 <div className="VrLogo">
